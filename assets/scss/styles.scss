@@ -12,11 +12,12 @@
         color:$colorFuente;
         font-size: 25px;
         font-family: $familiaFuente;
-        opacity: .50;
+        opacity: .35;
+        &:hover{
+            opacity: 1;
+        }
     }
-    &:hover{
-        opacity: 1;
-    }
+    
 }
 .noticias{
     background-color: $colorNoticias;
