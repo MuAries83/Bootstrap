@@ -1,0 +1,48 @@
+@import "variables.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: $colorBarras;
+    a {
+        text-decoration: none;
+        color:$colorFuente;
+        font-size: 25px;
+        font-family: $familiaFuente;
+        opacity: .50;
+    }
+    &:hover{
+        opacity: 1;
+    }
+}
+.noticias{
+    background-color: $colorNoticias;
+        p {
+            color: $colorFuente;
+            font-family: $familiaFuente;
+            font-size: $fuenteParrafo;
+            padding-left: 6px;
+        }
+}
+.cuerpo{
+    background-color: $colorCuerpo;
+    p {
+        font-size: $fuenteParrafo;
+        color: $colorNoticias;
+        font-family: $familiaFuente;
+    }
+}
+.pie{
+    background-color: $colorBarras;
+    p {
+        font-family: $familiaFuente;
+        font-size: $fuenteParrafo;
+        color: $colorFuente;
+    }
+    .propiedad {
+        font-size: 10px;
+    }
+}

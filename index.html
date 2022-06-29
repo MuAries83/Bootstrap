@@ -7,10 +7,11 @@
     <title>Inicio</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body class="cuerpo">
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./paginas/nostros.html">Nosotros</a>
+                        <a class="nav-link" aria-current="page" href="./paginas/nostros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./paginas/contenidos.html">Contenidos</a>
@@ -75,19 +76,19 @@
         </div>
     </header>
     <main>
-        <div class="noticias my-0"><p class="col-12 text-left">lo nuevo</p></div>
+        <div class="noticias"><p class="col-12 text-left">lo nuevo</p></div>
         <div class="row justify-content-around container-fluid">
-            <div class="col-4 mb-4 d-flex justify-content-center align-content-center"><img class="img-fluid" src="./assets/img/Logo_circular.png" alt="logo_canal"></div>
-            <p class="col-6 col-md-8 col-lg-8 col-xl-8 col-xxl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam neque sapiente.</p>
-            <div class="card col-4 mb-3 justify-content-around" style="width: 12rem;">
-                <img src="./assets/img/mano.webp" class="card-img-top mt-3" alt="Discrod">
+            <div class="col-4 mx-auto my-auto d-flex justify-content-center align-content-center"><img class="img-fluid animate__animated animate__flipInX" src="./assets/img/Logo_circular.png" alt="logo_canal"></div>
+            <p class="col-6 col-md-8 col-lg-8 col-xl-8 col-xxl-8 animate__animated animate__bounce animate__delay-1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam neque sapiente.</p>
+            <div class="card col-4 my-3 justify-content-around" style="width: 12rem;">
+                <img src="./assets/img/mano.webp" class="card-img-top mt-3 hola" alt="Discrod">
                 <div class="card-body">
                     <h5 class="card-title">Discord</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="https://discord.com/" class="btn btn-primary">Unete</a>
                 </div>
             </div>
-            <div class="card col-4 mb-3 justify-content-around" style="width: 12rem;">
+            <div class="card col-4 my-3 justify-content-around" style="width: 12rem;">
                 <img src="./assets/img/wave.gif" class="card-img-top mt-3" alt="Twitter">
                 <div class="card-body">
                     <h5 class="card-title">Twitter</h5>
@@ -100,10 +101,10 @@
     <footer>
         <div class="row justify-content-center pie">
             <p class="col-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod deserunt corrupti.</p>
-            <p class="col-12 text-center">Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="col-2 pie__img"><img class="img-fluid" src="./assets/img/twNa.png" alt="Twitter"></div>
-            <div class="col-2 pie__img1"><img class="img-fluid" src="./assets/img/disna.png" alt="Discord"></div>
-            <div class="col-2 pie__img2"><img class="img-fluid" src="./assets/img/twina.png" alt="Twitch"></div>
+            <p class="col-12 text-center propiedad">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="col-2 pie__img"><a href="https://twitter.com/Aries83Mu"><img class="img-fluid" src="./assets/img/twNa.png" alt="Twitter"></a></div>
+            <div class="col-2 pie__img1"><a href="https://discord.com/"><img class="img-fluid" src="./assets/img/disna.png" alt="Discord"></a></div>
+            <div class="col-2 pie__img2"><a href="https://www.twitch.tv/manqueandoconelaries"><img class="img-fluid" src="./assets/img/twina.png" alt="Twitch"></a></div>
         </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
