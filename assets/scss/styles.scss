@@ -22,17 +22,17 @@
 .noticias{
     background-color: $colorNoticias;
         p {
-            color: $colorFuente;
+            color: map-get($estilos, Color );
             font-family: $familiaFuente;
-            font-size: $fuenteParrafo;
+            font-size: map-get($estilos , mediana );
             padding-left: 6px;
         }
 }
 .cuerpo{
     background-color: $colorCuerpo;
     p {
-        font-size: $fuenteParrafo;
-        color: $colorNoticias;
+        font-size: map-get($estilos, grande );
+        color: map-get($estilos, noticias );
         font-family: $familiaFuente;
     }
 }
@@ -40,10 +40,10 @@
     background-color: $colorBarras;
     p {
         font-family: $familiaFuente;
-        font-size: $fuenteParrafo;
-        color: $colorFuente;
+        font-size: map-get($estilos , mediana );
+        color: map-get($estilos , color );
     }
     .propiedad {
-        font-size: 10px;
+        font-size: map-get($estilos , chica );
     }
 }
