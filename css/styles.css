@@ -47,4 +47,14 @@
 }
 .pie .propiedad {
   font-size: 10px;
+}
+
+.logo, .logo--lateral {
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=styles.css.map */

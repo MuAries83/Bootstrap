@@ -17,7 +17,6 @@
             opacity: 1;
         }
     }
-    
 }
 .noticias{
     background-color: $colorNoticias;
@@ -46,4 +45,16 @@
     .propiedad {
         font-size: map-get($estilos , chica );
     }
+}
+.logo{
+    animation: rotate 1s 
+            linear infinite;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.logo--lateral{
+    @extend .logo
 }
