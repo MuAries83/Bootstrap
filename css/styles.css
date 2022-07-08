@@ -32,7 +32,7 @@
   background-color: beige;
 }
 .cuerpo p {
-  font-size: 35px;
+  font-size: 20px;
   color: gray;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -43,6 +43,7 @@
 .pie p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  color: white;
 }
 .pie .propiedad {
   font-size: 10px;

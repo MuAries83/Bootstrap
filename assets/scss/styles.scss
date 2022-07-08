@@ -22,7 +22,7 @@
 .noticias{
     background-color: $colorNoticias;
         p {
-            color: map-get($estilos, Color );
+            color: map-get($estilos, colores );
             font-family: $familiaFuente;
             font-size: map-get($estilos , mediana );
             padding-left: 6px;
@@ -31,7 +31,7 @@
 .cuerpo{
     background-color: $colorCuerpo;
     p {
-        font-size: map-get($estilos, grande );
+        font-size: map-get($estilos, mediana );
         color: map-get($estilos, noticias );
         font-family: $familiaFuente;
     }
@@ -41,7 +41,7 @@
     p {
         font-family: $familiaFuente;
         font-size: map-get($estilos , mediana );
-        color: map-get($estilos , color );
+        color: map-get($estilos , colores );
     }
     .propiedad {
         font-size: map-get($estilos , chica );
